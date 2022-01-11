@@ -1,0 +1,24 @@
+.flex-container{
+    width: 300px;
+    height: 300px;
+    background-color: silver;
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-start;
+    align-items: flex-start;} 
+.flex-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;}
+.verde{
+    background-color: green;
+    margin: 0px;
+    order: 1;}
+.amarelo{
+    background-color: yellow;
+    margin: 0px;
+    order: 2;}
+.vermelho{
+    background-color: red;
+    margin: 0px;
+    order: 3;}
